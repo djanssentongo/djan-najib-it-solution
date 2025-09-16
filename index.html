@@ -69,7 +69,10 @@
       transform: scale(1.05);
     }
     .card img {
-      width: 60px;
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
       margin-bottom: 15px;
     }
     footer {
@@ -107,11 +110,14 @@
   <nav>
     <a href="#about">About Us</a>
     <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
     <a href="#contact">Contact</a>
   </nav>
 
   <section id="about">
     <h2>About Us</h2>
+    <img src="https://images.unsplash.com/photo-1581090700227-7e9c1f3d9f2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNjc3M3wwfDF8c2VhcmNofDF8fGl0JTIwc2VydmljZXN8ZW58MHx8fHwxNjk1NzI4NDA5&ixlib=rb-4.0.3&q=80&w=1080" 
+         alt="IT Services in Kampala" style="width:100%; border-radius:12px; margin-bottom:20px;">
     <p>At <strong>Djan Najib IT Solutions</strong>, we specialize in delivering professional IT services including web development, app development, computer applications, software installation, graphics design, and video editing. We aim to empower businesses and individuals in Kampala, Uganda with top-notch technology solutions.</p>
   </section>
 
@@ -119,34 +125,52 @@
     <h2>Our Services</h2>
     <div class="services">
       <div class="card">
-        <img src="https://img.icons8.com/color/96/000000/domain.png" alt="Web Development">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Web Development">
         <h3>Web Development</h3>
         <p>Modern, responsive websites for businesses, schools, and personal brands.</p>
       </div>
       <div class="card">
-        <img src="https://img.icons8.com/color/96/000000/android.png" alt="App Development">
+        <img src="https://images.unsplash.com/photo-1581091012184-2a16c9f0f3f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="App Development">
         <h3>App Development</h3>
         <p>Custom mobile & desktop applications to boost your productivity.</p>
       </div>
       <div class="card">
-        <img src="https://img.icons8.com/color/96/000000/computer.png" alt="Computer Applications">
+        <img src="https://images.unsplash.com/photo-1581090700335-8f0c42b5c8f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Computer Applications">
         <h3>Computer Applications</h3>
         <p>Training and support for essential computer applications.</p>
       </div>
       <div class="card">
-        <img src="https://img.icons8.com/color/96/000000/settings.png" alt="Software Installation">
+        <img src="https://images.unsplash.com/photo-1581090700191-b9aaaf75a849?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Software Installation">
         <h3>Software Installation</h3>
         <p>Quick and reliable installation of all necessary software.</p>
       </div>
       <div class="card">
-        <img src="https://img.icons8.com/color/96/000000/design.png" alt="Graphics Design">
+        <img src="https://images.unsplash.com/photo-1533750349088-cd871a92f312?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Graphics Design">
         <h3>Graphics Design</h3>
         <p>Creative logos, posters, and branding materials for your business.</p>
       </div>
       <div class="card">
-        <img src="https://img.icons8.com/color/96/000000/video-editing.png" alt="Video Editing">
+        <img src="https://images.unsplash.com/photo-1581091012175-2e7c9b64b0aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Video Editing">
         <h3>Video Editing</h3>
         <p>Professional video editing services for events, ads, and businesses.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Our Work</h2>
+    <div class="services">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Website Project">
+        <p>Website project for a local business in Kampala.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Graphics Design Project">
+        <p>Logo and branding for a startup.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1523475496153-3d6ccf0fef57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="App Project">
+        <p>Mobile app development project for a local client.</p>
       </div>
     </div>
   </section>
@@ -156,14 +180,4 @@
     <div class="contact">
       <p><strong>Phone:</strong> +256 754 298 143</p>
       <p><strong>Email:</strong> <a href="mailto:djanssentongo@gmail.com">djanssentongo@gmail.com</a></p>
-      <p><strong>Location:</strong> Kampala, Uganda</p>
-      <button onclick="window.location.href='mailto:djanssentongo@gmail.com'">Send Email</button>
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2025 Djan Najib IT Solutions - All Rights Reserved.</p>
-  </footer>
-</body>
-</html>
-
+      <p><
